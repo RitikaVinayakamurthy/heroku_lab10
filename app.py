@@ -10,7 +10,7 @@ print("Test 2")
 print(os.getcwd())
 path = os.getcwd()
 
-with open('testproject/Models/Decision_model.pkl', 'rb') as f:
+with open('/Models/Decision_model.pkl', 'rb') as f:
     DecisionTree = pickle.load(f)
 
 
